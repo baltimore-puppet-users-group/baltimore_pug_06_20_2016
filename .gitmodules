@@ -1,3 +1,6 @@
 [submodule "modules/strings"]
 	path = modules/strings
 	url = https://github.com/baltimore-puppet-users-group/puppetlabs-strings
+[submodule "modules/rvm"]
+	path = modules/rvm
+	url = https://github.com/maestrodev/puppet-rvm
