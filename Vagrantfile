@@ -68,4 +68,8 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+     config.vm.provision "shell", inline: <<-SHELL
+	 cd /vagrant
+	 sudo /opt/puppetlabs/bin/puppet apply --modulepath modules provision.pp
+   SHELL
 end
