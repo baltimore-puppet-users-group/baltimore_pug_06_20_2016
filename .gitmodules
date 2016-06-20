@@ -4,3 +4,12 @@
 [submodule "modules/rvm"]
 	path = modules/rvm
 	url = https://github.com/maestrodev/puppet-rvm
+[submodule "modules/gnupg"]
+	path = modules/gnupg
+	url = https://github.com/n1tr0g/golja-gnupg
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib
+[submodule "simp-core"]
+	path = simp-core
+	url = https://github.com/simp/simp-core
