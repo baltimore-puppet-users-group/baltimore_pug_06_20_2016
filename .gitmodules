@@ -13,3 +13,6 @@
 [submodule "simp-core"]
 	path = simp-core
 	url = https://github.com/simp/simp-core
+[submodule "simp-doc"]
+	path = simp-doc
+	url = https://github.com/trevor-vaughan/simp-doc
