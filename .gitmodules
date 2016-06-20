@@ -1,0 +1,3 @@
+[submodule "modules/strings"]
+	path = modules/strings
+	url = https://github.com/baltimore-puppet-users-group/puppetlabs-strings
