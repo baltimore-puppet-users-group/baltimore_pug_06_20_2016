@@ -42,3 +42,8 @@ file_line { "add pry-byebug":
   path => "/vagrant/simp-doc/Gemfile",
   line => "gem 'pry-byebug'",
 }
+file_line { "add basedir":
+  path => "/vagrant/simp-doc/Gemfile",
+  line => "base_dir = '/vagrant/simp-core",
+  match => "    base_dir = File.join('..','..')",
+}
