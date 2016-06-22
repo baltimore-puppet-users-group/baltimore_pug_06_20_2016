@@ -1,1 +1,3 @@
 .vagrant/
+/nbproject/private/
+nbproject/

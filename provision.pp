@@ -1,5 +1,7 @@
 $packages = [
    "git",
+   "screen",
+   "tmux",
    "nano",
 ]
 package { $packages:
@@ -35,4 +37,8 @@ file_line { "changegemfile":
   path => "/vagrant/simp-doc/Gemfile",
   match => "gem 'puppet-strings', :git => 'https://github.com/puppetlabs/puppetlabs-strings.git'",
   line => "gem 'puppet-strings', :git => '/vagrant/modules/strings'",
+}
+file_line { "add pry-byebug":
+  path => "/vagrant/simp-doc/Gemfile",
+  line => "gem 'pry-byebug'",
 }
